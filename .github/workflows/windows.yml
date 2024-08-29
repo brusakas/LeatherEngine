@@ -38,7 +38,7 @@ jobs:
           haxelib git linc_luajit https://github.com/Leather128/linc_luajit.git
           haxelib install hscript
           haxelib git polymod https://github.com/larsiusprime/polymod.git
-          haxelib git hxCodec 2.5.1
+          haxelib install hxCodec 2.5.1
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib git flixelTextureAtlas https://github.com/Smokey555/Flixel-TextureAtlas.git
           haxelib git fnf-modcharting-tools https://github.com/TheZoroForce240/FNF-Modcharting-Tools
