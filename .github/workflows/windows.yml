@@ -26,7 +26,7 @@ jobs:
           choco install haxe --version 4.2.5 -y
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
-          haxelib install hxcpp > nul
+          haxelib install hxcpp
           haxelib install lime 7.9.0
           haxelib install openfl 9.1.0 --quiet
           haxelib --never install flixel 4.9.0 --quiet
